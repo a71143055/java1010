@@ -16,5 +16,9 @@ public class ArrayListTest {
         String removedName = names.remove(2);
 
         System.out.println("삭제된 요소 : " + removedName);
+
+        for (int i = 0; i < names.size(); i++) {
+            System.out.println(names.get(i));
+        }
     }
 }
